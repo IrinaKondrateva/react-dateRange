@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from 'components/App';
+import DateRange from 'components/DateRange';
 import './index.css';
 
-ReactDOM.render(<App date={new Date()} />, document.getElementById('root'));
+ReactDOM.render(<DateRange />, document.getElementById('root'));
